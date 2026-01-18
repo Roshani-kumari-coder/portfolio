@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Our Portfolio - Acceptare</title>
+ 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!------------------------Header----------------------------------->
+  <header>
+    <div class="navbar">
+    <img src="Acceptare-White-Logo.webp" alt="Profile Photo">
+     
+    <!-- insert this button next to your logo, before your existing <nav> -->
+<button id="nav-toggle" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="bars">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</button>
+
+<!-- Example: your existing nav (do not replace) -->
+<!-- <nav id="site-nav"> ... your UL and links ... </nav> -->
+
+                <nav id="site-nav" class="navCol">
+                  <ul>
+                    <li><a href="#About">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              
+  </header>
+<!------------------------------------End header-------------->
+<!---------------------------About Section------------------------->
+  
+  <main style="background-color:#003366; color:#e6edf3; font-family:Arial, sans-serif; 
+min-height:100vh; padding-top:180px; padding-left:35px; padding-right:35px;">
+
+   <section id="About" style="position: relative; z-index: 10; max-width: 900px; margin: 0 auto; display: flex; align-items: center; gap: 40px; flex-wrap: wrap;">
+
+    <!-- Image Section -->
+    <div style="flex: 1; text-align: center;">
+     <img id="aboutImg" src="roshani.jpg" alt="My Photo"
+style="width:250px;height:250px;border-radius:50%;object-fit:cover;border:2px solid #fff;">
+ </div>
+
+    <!-- About Me Text -->
+    <div style="flex: 2;">
+      <h1 style="font-size: 2rem; color: hsl(0, 85%, 50%); margin-bottom: 15px;">About Me</h1>
+      <p style="line-height: 1.8; font-size: 1rem; font-size: 18px;">
+        Hello, I'm <strong>Roshani Kumari</strong>, a passionate web developer with a love for creating beautiful and
+        functional websites. I specialize in front-end technologies like HTML, CSS, JavaScript, and Java.
+        I enjoy turning ideas into real, user-friendly digital experiences.
+      </p>
+      <p style="margin-top: 10px; color: #87bdfa; font-size: 15px;">
+        In my free time, I like learning new tech, exploring UI/UX design, and contributing to open-source projects.
+      </p>
+    </div>
+ </section>
+ <!---------------------------End section------------------------>
+    <!------------------------SKILLS------------------------>
+ <section id="Skills" class="skills-section">
+  <div class="skills-text fade-up">
+    <h2>My skills</h2>
+    <p>
+      I have a good knowledge of Java, HTML, CSS, JavaScript and C-lang.
+      Apart from my technical skills, I am also good at my interpersonal skills.
+      My unique attribute is passion. Without a passion for what you are doing, it
+      is not possible to ideally perform your job. My strength is that I am a quick learner,
+      hard-worker and punctual. I am always ready to learn new technologies and
+      perform projects to implement these technologies.
+    </p>
+    <button>Read more</button>
+  </div>
+
+  <div class="skill-bars">
+
+    <div class="bar">
+      <p>JAVA <span style="float:right;">90%</span></p>
+      <div class="progress"><div data-percent="90"></div></div>
+    </div>
+
+    <div class="bar">
+      <p>HTML <span style="float:right;">85%</span></p>
+      <div class="progress"><div data-percent="85"></div></div>
+    </div>
+
+    <div class="bar">
+      <p>CSS <span style="float:right;">60%</span></p>
+      <div class="progress"><div data-percent="60"></div></div>
+    </div>
+
+    <div class="bar">
+      <p>JavaScript <span style="float:right;">75%</span></p>
+      <div class="progress"><div data-percent="75"></div></div>
+    </div>
+
+    <div class="bar">
+      <p>DBMS <span style="float:right;">65%</span></p>
+      <div class="progress"><div data-percent="65"></div></div>
+    </div>
+
+  </div>
+</section>
+
+ <!-----------------------------END SKILLS--------------------------->
+<section id="Project" class="project-search">
+  <div class="search-box">
+    <input type="text" placeholder="Search projects by name...">
+    <button>Search</button>
+  </div>
+
+  <p class="hint">* Try searching for "E-commerce", "React" or "PHP"</p>
+
+  <section id="Service">
+    <button class="active" type="button">All Projects</button>
+
+    <div class="project-tabs animate-tabs">
+      <button><a href="#wordpress">WordPress</a></button>
+      <button><a href="#fintech">FinTech</a></button>
+      <button><a href="#php">PHP</a></button>
+      <button><a href="#dotnet">.Net</a></button>
+      <button><a href="#react">React</a></button>
+      <button><a href="#ongoing">Ongoing Projects</a></button>
+    </div>
+  </section>
+</section>
+
+    
+   <section class="portfolio-section ">
+        
+        <h2 id="wordpress" class="animate-title">WordPress</h2>
+        <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+            
+        <div class="portfolio-container animate-container">
+            <!-- Card 1 -->
+            <div class="portfolio-card animate-project">
+                <img src="download (1).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+                    <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products
+                        to life. From ideation to execution, we focus on quality, functionality, and customer
+                        satisfaction—so your business can scale confidently in today’s competitive market.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WordPress theme</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://rakibhasanllc.com/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="portfolio-card">
+                <img src="download (2).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Discover What Powers Your Website
+                    </h3>
+                    <p>Every website is built using a combination of front-end and back-end technologies. While the
+                        design and visuals come from HTML, CSS, and JavaScript, the server-side programming
+                        language—such as Fin tech, Python, Node.js, or . Tools
+                        like Wappalyzer or BuiltWith help identify these technologies for better analysis
+
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Fin tech</span>
+                        <span class="tag">node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <a href="https://acceptare.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="portfolio-card">
+                <img src="download.jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Smart Services, Delivered Effortlessly</h3>
+                    <p>JioXpress brings together advanced technology and intuitive design to create a superior digital
+                        experience. Optimized for performance and reliability, the platform delivers smooth browsing,
+                        secure access, and consistently fast service for every user.</p>
+                    <div class="tech-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">DB</span>
+                    </div>
+                    <a href="https://rakibhasanllc.com/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+     
+ 
+          </div>
+ </section>
+ <section class="portfolio-section">
+        
+        <h2 id="fintech" class="animate-title">FinTech Projects</h2>
+        <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+            
+        <div class="portfolio-container animate-container" >
+            <!-- Card 1 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (4).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+                    <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products
+                        to life. From ideation to execution, we focus on quality, functionality, and customer
+                        satisfaction—so your business can scale confidently in today’s competitive market.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WordPress theme</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://rakibhasanllc.com/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (5).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Discover What Powers Your Website
+                    </h3>
+                    <p>Every website is built using a combination of front-end and back-end technologies. While the
+                        design and visuals come from HTML, CSS, and JavaScript, the server-side programming
+                        language—such as Fin tech, Python, Node.js, or . Tools
+                        like Wappalyzer or BuiltWith help identify these technologies for better analysis
+
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Fin tech</span>
+                        <span class="tag">node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <a href="https://eagle.net.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (6).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Smart Services, Delivered Effortlessly</h3>
+                    <p>JioXpress brings together advanced technology and intuitive design to create a superior digital
+                        experience. Optimized for performance and reliability, the platform delivers smooth browsing,
+                        secure access, and consistently fast service for every user.</p>
+                    <div class="tech-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">DB</span>
+                    </div>
+                    <a href="https://jioxpress.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+     
+
+          </div>
+ </section>
+<section class="portfolio-section">
+        
+        <h2 id="php" class="animate-title">PHP</h2>
+        <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+            
+        <div class="portfolio-container animate-container" >
+            <!-- Card 1 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (10).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+                    <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products
+                        to life. From ideation to execution, we focus on quality, functionality, and customer
+                        satisfaction—so your business can scale confidently in today’s competitive market.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WordPress theme</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://fashionemart.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (11).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Discover What Powers Your Website
+                    </h3>
+                    <p>Every website is built using a combination of front-end and back-end technologies. While the
+                        design and visuals come from HTML, CSS, and JavaScript, the server-side programming
+                        language—such as Fin tech, Python, Node.js, or . Tools
+                        like Wappalyzer or BuiltWith help identify these technologies for better analysis
+
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Fin tech</span>
+                        <span class="tag">node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <a href="https://acceptare.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (12).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Smart Services, Delivered Effortlessly</h3>
+                    <p>JioXpress brings together advanced technology and intuitive design to create a superior digital
+                        experience. Optimized for performance and reliability, the platform delivers smooth browsing,
+                        secure access, and consistently fast service for every user.</p>
+                    <div class="tech-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">DB</span>
+                    </div>
+                    <a href="https://jioxpress.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+     
+
+          </div>
+ </section>
+ <section class="portfolio-section">
+        
+  <h2 id="dotnet" class="animate-title">.Net</h2>
+  <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+      
+  <div class="portfolio-container animate-container">
+
+    <div class="portfolio-card animate-project">
+      <img src="images (16).jpg" alt="Project">
+      <div class="portfolio-content">
+        <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+        <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products.</p>
+        <div class="tech-tags">
+          <span class="tag">WordPress theme</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <a href="https://rakibhasanllc.com/" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="portfolio-card animate-project">
+      <img src="images (17).jpg" alt="Project">
+      <div class="portfolio-content">
+        <h3>Discover What Powers Your Website</h3>
+        <p>Every website is built using a combination of front-end and back-end technologies.</p>
+        <div class="tech-tags">
+          <span class="tag">Fin tech</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Python</span>
+        </div>
+        <a href="https://acceptare.in/" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+    <div class="portfolio-card animate-project">
+      <img src="images (18).jpg" alt="Project">
+      <div class="portfolio-content">
+        <h3>Smart Services, Delivered Effortlessly</h3>
+        <p>Optimized for performance and reliability.</p>
+        <div class="tech-tags">
+          <span class="tag">PHP</span>
+          <span class="tag">MYSQL</span>
+          <span class="tag">DB</span>
+        </div>
+        <a href="https://jioxpress.in/" class="view-btn">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <section class="portfolio-section">
+        
+        <h2 id="react" class="animate-title">React</h2>
+        <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+            
+        <div class="portfolio-container animate-container">
+            <!-- Card 1 -->
+            <div class="portfolio-card animate-project">
+                <img src="images1.jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+                    <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products
+                        to life. From ideation to execution, we focus on quality, functionality, and customer
+                        satisfaction—so your business can scale confidently in today’s competitive market.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WordPress theme</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://rakibhasanllc.com/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (1).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Discover What Powers Your Website
+                    </h3>
+                    <p>Every website is built using a combination of front-end and back-end technologies. While the
+                        design and visuals come from HTML, CSS, and JavaScript, the server-side programming
+                        language—such as Fin tech, Python, Node.js, or . Tools
+                        like Wappalyzer or BuiltWith help identify these technologies for better analysis
+
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Fin tech</span>
+                        <span class="tag">node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <a href="https://acceptare.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="portfolio-card animate-project">
+                <img src="img2.png" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Smart Services, Delivered Effortlessly</h3>
+                    <p>JioXpress brings together advanced technology and intuitive design to create a superior digital
+                        experience. Optimized for performance and reliability, the platform delivers smooth browsing,
+                        secure access, and consistently fast service for every user.</p>
+                    <div class="tech-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">DB</span>
+                    </div>
+                    <a href="https://jioxpress.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+     
+ 
+          </div>
+ </section>
+ 
+ <section class="portfolio-section">
+        
+        <h2 id="ongoing" class="animate-title">Ongoing Project</h2>
+        <p>Explore our carefully crafted digital solutions across various technologies and industries.</p>
+            
+        <div class="portfolio-container animate-container">
+            <!-- Card 1 -->
+            <div class="portfolio-card animate-project">
+                <img src="images.jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>"Empowering Businesses with Smart Kitchen & Home Solutions”</h3>
+                    <p>We help brands and manufacturers bring modern, innovative, and reliable kitchen and home products
+                        to life. From ideation to execution, we focus on quality, functionality, and customer
+                        satisfaction—so your business can scale confidently in today’s competitive market.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WordPress theme</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://rakibhasanllc.com/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (1).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Discover What Powers Your Website
+                    </h3>
+                    <p>Every website is built using a combination of front-end and back-end technologies. While the
+                        design and visuals come from HTML, CSS, and JavaScript, the server-side programming
+                        language—such as Fin tech, Python, Node.js, or . Tools
+                        like Wappalyzer or BuiltWith help identify these technologies for better analysis
+
+                    </p>
+                    <div class="tech-tags">
+                        <span class="tag">Fin tech</span>
+                        <span class="tag">node.js</span>
+                        <span class="tag">Python</span>
+                    </div>
+                    <a href="https://acceptare.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="portfolio-card animate-project">
+                <img src="images (10).jpg" alt="Project">
+                <div class="portfolio-content">
+                    <h3>Smart Services, Delivered Effortlessly</h3>
+                    <p>JioXpress brings together advanced technology and intuitive design to create a superior digital
+                        experience. Optimized for performance and reliability, the platform delivers smooth browsing,
+                        secure access, and consistently fast service for every user.</p>
+                    <div class="tech-tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">MYSQL</span>
+                        <span class="tag">DB</span>
+         </div>
+                    <a href="https://jioxpress.in/" class="view-btn">View Project <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+          </div>
+     </div>
+ </section>
+ <!-----------------------------start contact------------->
+ <section class="contact-section" id="Contact">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-sub">We’re here to help! Feel free to reach out.</p>
+
+    <div class="contact-container">
+        
+        <!-- Left Side Contact Info -->
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+
+            <div class="info-box">
+                <i class="fa-solid fa-phone"></i>
+                <p>+91 6200000000</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-envelope"></i>
+                <p>kumariroshani0340@gmail.com</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Bihar, India</p>
+            </div>
+
+            <div class="info-box">
+                <i class="fa-solid fa-clock"></i>
+                <p>Mon – Sat: 9:00 AM – 7:00 PM</p>
+            </div>
+        </div>
+
+        <!-- Right Side Contact Form -->
+     <!-- FormSubmit contact form (no PHP required) -->
+<form class="contact-form" id="contactForm"
+      action="send.php"
+      method="POST">
+
+  
+  <h3>Send a Message</h3>
+
+  <input type="text" name="name" id="name" placeholder="Your Name" required>
+  <input type="email" name="email" id="email" placeholder="Your Email" required>
+  <input type="text" name="subject" id="subject" placeholder="Subject" required>
+  <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+
+  <button type="submit">Send Message</button>
+  <p class="form-status" id="formStatus"></p>
+</form>
+
+
+
+    </div>
+</section>
+
+<!---------------------------End contact--------------------->
+   <!-----------------------start footer--------------------->
+    <footer class="footer">
+    
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="https://wa.me/"><i class="fab fa-whatsapp"></i></a>
+          <a href="settings.htm"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/roshani._096?igsh=MXJkMTB5bmRqNGFobQ==">
+            <i class="fab fa-instagram"></i></a>
+        </div>
+
+
+    <div class="footer-bottom">
+      <p> Copyright @2025 All Rights Reserved. Roshani</p>
+    </div>
+    <!----------------------------end footer---------------->
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
